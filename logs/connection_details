@@ -1,0 +1,35 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host ocds.guatecompras.gt:443 was resolved.
+* IPv6: (none)
+* IPv4: 104.18.29.207, 104.18.28.207
+*   Trying 104.18.29.207:443...
+* Connected to ocds.guatecompras.gt (104.18.29.207) port 443
+* schannel: disabled automatic use of client certificate
+* ALPN: curl offers http/1.1
+* ALPN: server accepted http/1.1
+* using HTTP/1.x
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0> GET /file/csv/2000/1 HTTP/1.1
+> Host: ocds.guatecompras.gt
+> User-Agent: curl/8.9.1
+> Accept: */*
+> 
+* Request completely sent off
+* schannel: remote party requests renegotiation
+* schannel: renegotiating SSL/TLS connection
+* schannel: SSL/TLS connection renegotiated
+< HTTP/1.1 204 No Content
+< Date: Tue, 26 Nov 2024 17:11:59 GMT
+< Connection: keep-alive
+< x-power-by: DevGC
+< set-cookie: f25767e8be86831b6e07a3c19e87a35e=f4edc845de91a83bf6658d23a34277a4; path=/; HttpOnly; Secure; SameSite=None
+< cache-control: private
+< CF-Cache-Status: DYNAMIC
+< Set-Cookie: __cf_bm=JtBva7Od0Jw7tV0levESZbjsgky1XjMFtAc5eAGj3L8-1732641119-1.0.1.1-L1F45cAuOKfqjZtZm8KAD2WQh8_oe9F36SMpMrxcqRYXoCOlPvT52c2l6V1Bs.4SU6DtmPsX4nPvSfzKj7B.wA; path=/; expires=Tue, 26-Nov-24 17:41:59 GMT; domain=.guatecompras.gt; HttpOnly; Secure; SameSite=None
+< Strict-Transport-Security: max-age=0
+< Server: cloudflare
+< CF-RAY: 8e8b8033982b079c-IAD
+< alt-svc: h3=":443"; ma=86400
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host ocds.guatecompras.gt left intact
