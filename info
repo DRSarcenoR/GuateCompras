@@ -2,3 +2,71 @@
 •	Si desean que la información descargada del portal de Guatecompras sea agregada de forma automática al DW, o si desean que se realice un análisis sobre los datos, se deberá llenar el formulario de solicitud de necesidades analíticas (adjunto a este correo) para que se le pueda asignar una prioridad y recursos de manera adecuada. 
 
 https://ocds.guatecompras.gt/
+
+
+IMPORTANTE
+https://sociedad.info/guatemala/proveedor/28364589
+
+
+
+
+from bs4 import BeautifulSoup
+
+# HTML de ejemplo (puedes reemplazarlo con tu propio HTML)
+html_content = """
+<div class="fieldsetgroup">
+    <h2>Representantes Legales: ¿Cuáles son los representantes legales de REALIDADES SOCIEDAD ANONIMA?</h2>
+    <p>Los representantes legales son las personas responsables por las actividades de la empresa.</p>
+    <div class="results">
+        <a class="result" href="/guatemala/proveedor/5554357">
+            <div class="resultItem">
+                <div class="resultIcon">
+                    <i class="fi fi-rr-building" title="supplier"></i>
+                </div>
+                <div class="resultName">
+                    <span>NAVAS ARRIAGA AIDA ELIZABETH</span>
+                </div>
+                <span class="field rep_nit">
+                    <span class="fieldTitle">NIT</span>
+                    <span class="fieldValue">5554357</span>
+                </span>
+            </div>
+        </a>
+        <a class="result" href="/guatemala/proveedor/1733613">
+            <div class="resultItem">
+                <div class="resultIcon">
+                    <i class="fi fi-rr-building" title="supplier"></i>
+                </div>
+                <div class="resultName">
+                    <span>VELEZ ZIMERI VICTOR HUGO</span>
+                </div>
+                <span class="field rep_nit">
+                    <span class="fieldTitle">NIT</span>
+                    <span class="fieldValue">1733613</span>
+                </span>
+                <span class="field repp_lazo_nombramiento">
+                    <span class="fieldTitle">Plazo de nombramiento</span>
+                    <span class="fieldValue">26/08/2012</span>
+                </span>
+            </div>
+        </a>
+    </div>
+</div>
+"""
+
+# Cargar el HTML en BeautifulSoup
+soup = BeautifulSoup(html_content, 'html.parser')
+
+# Buscar el div que contiene los resultados
+results_div = soup.find('div', class_='results')
+
+# Extraer todos los nombres dentro de los div.resultName
+nombres = []
+for result in results_div.find_all('a', class_='result'):
+    # Encontramos el nombre dentro del div.resultName
+    name_tag = result.find('div', class_='resultName').find('span')
+    if name_tag:
+        nombres.append(name_tag.get_text(strip=True))
+
+# Mostrar los nombres extraídos
+print(nombres)
