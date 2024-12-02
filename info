@@ -70,3 +70,8 @@ for result in results_div.find_all('a', class_='result'):
 
 # Mostrar los nombres extraídos
 print(nombres)
+
+
+
+Documentacion del DW
+https://srv-gitlab-01.chncentral.chn.com.gt/dataanalysis/datawarehouse/-/wikis/home

@@ -1,0 +1,27 @@
+{
+    "NIT": [],
+    "Nombre": [],
+    "tipo_organizacion": [],
+    "actividad_economica": [],
+    "notario": [],
+    "nit_notario": [],
+    "departamento": [],
+    "municipio": [],
+    "direccion": [],
+    "telefono": [],
+    "inscripcion_sat": [],
+    "estado_sat": [],
+    "estado_rgae": [],
+    "fecha_constitucion": [],
+    "inscripcion_provisional_registro_mercantil": [],
+    "inscripcion_definitiva_registro_mercantil": [],
+    "perfil_guatecompras": []
+}
+
+
+
+{
+    "NIT_empresa": [],
+    "representante_legal": [],
+    "NIT_representante": []
+}
