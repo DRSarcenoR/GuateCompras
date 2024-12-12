@@ -1,1 +1,94 @@
 # GuateCompras
+
+## En este repositorio
+
+```
+GuateCompras/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── data/
+    ├── 2020-01_file.txt
+    ├── 2020-10_links_info/
+        ├── link_i.json
+    ├── PROVEEDORES_X_PARTES/
+        ├── PROVEEDORES.csv
+        ├── PROVEEDORES.xlsx
+        ├── PROVEEDORES_A_MANO.xlsx
+        ├── PROVEEDORES_parte_2.csv
+        ├── PROVEEDORES_parte_2.xlsx
+        ├── PROVEEDORES_parte_3.csv
+        ├── PROVEEDORES_parte_3.xlsx
+        ├── PROVEEDORES_parte_4.csv
+        ├── PROVEEDORES_parte_4.xlsx
+        ├── REPRESENTANTES_LEGALES.csv
+        ├── REPRESENTANTES_LEGALES.xlsx
+        ├── REPRESENTANTES_LEGALES_A_MANO.xlsx
+        ├── REPRESENTANTES_LEGALES_parte_2.csv
+        ├── REPRESENTANTES_LEGALES_parte_2.xlsx
+        ├── REPRESENTANTES_LEGALES_parte_3.csv
+        ├── REPRESENTANTES_LEGALES_parte_3.xlsx
+        ├── REPRESENTANTES_LEGALES_parte_4.csv
+        └── REPRESENTANTES_LEGALES_parte_4.xlsx
+    ├── ProveedoresPorMonto2024_11_28_15_09_29.csv
+    ├── ProveedoresPorMonto2024_11_28_15_40_09.csv
+    ├── buscador_guatecompras.html
+    ├── data_all_months/
+        ├── file_yyyy-mm.json
+    ├── data_all_months_xlsx/
+        ├── output_yyyy-mm.xlsx
+    ├── data_guatecompras_importante/
+        ├── CPE_NIT_yyyy.csv
+    ├── datosjsonlink.json
+    ├── ejecuciones_scrap/
+        ├── ejecucion1_proveedores.txt
+        ├── ejecucion2_proveedores.txt
+        ├── ejecucion3_proveedores.txt
+        └── ejecucion4_proveedores.txt
+    ├── ejemplo2 copy.json
+    ├── ejemplo2.json
+    ├── ejemplo_record.json
+    ├── html/
+        ├── html_selenium.html
+        └── nitprueba.html
+    ├── nits_faltantes_luego_de_parte_4.xlsx
+    ├── nits_unicos.xlsx
+    ├── output_proveedores_full.xlsx
+    ├── pjpi.xlsx
+    ├── repleg_concatenados.xlsx
+    ├── repleg_monto.xlsx
+    ├── scrapped/
+        ├── CPE_NIT_yyyy.csv
+        └── sin_comillas/
+            ├── CPE_NIT_yyyy.csv
+    └── sociedadinfo.html
+├── guatecompras.yaml
+├── html/
+    ├── NIT.html
+    └── html guatecompras/
+├── info
+├── logs/
+    ├── connection_details
+    └── failed_connection.log
+├── misc/
+    ├── db.sql
+    ├── json-relacional.docx
+    ├── politica_publicacion_guatecompras_OCDS.pdf
+    └── urls_pdf.ipynb
+├── output/
+    ├── PROV_CPE_2005-2024_NOV.csv
+    ├── PROV_CPE_2005-2024_NOV.xlsx
+    └── data_proveedores.xlsx
+└── tests/
+    ├── analisis.ipynb
+    ├── api.ipynb
+    ├── combine.ipynb
+    ├── csv.ipynb
+    ├── extract.ipynb
+    ├── guatecompras.ipynb
+    ├── individual_juridica.ipynb
+    ├── info_proveedores.ipynb
+    ├── parse.ipynb
+    ├── proveedores_partes.ipynb
+    └── sociedad_info.ipynb
+```
